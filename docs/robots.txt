@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://donghaozhu.github.io/sitemap.xml

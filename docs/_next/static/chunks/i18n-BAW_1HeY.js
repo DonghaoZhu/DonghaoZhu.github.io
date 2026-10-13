@@ -1,0 +1,1 @@
+function e(e){return/^\/ja(?:\/|$)/.test(e)?`ja`:`en`}function t(e,t){let n=e.search(/[?#]/),r=n<0?e:e.slice(0,n),i=n<0?``:e.slice(n),a=r.replace(/^\/ja(?=\/|$)/,``)||`/`;return(t===`ja`?`/ja${a===`/`?``:a}`:a)+i}export{t as n,e as t};
